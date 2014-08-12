@@ -7,10 +7,11 @@ Feel free to reorganize code, and distribute your own version. I would be happy 
 
 Send email with following details:
 
-  To:      krishna[at]pcsalt[dot]com
-  Subject: [Search-and-Delete-duplicate-files]
-  Message: [Name] [Application-Name]
+	To:      krishna[at]pcsalt[dot]com
+	Subject: [Search-and-Delete-duplicate-files]
+	Message: [Name] [Application-Name]
 
+Thank you.
 
 		Copyright 2014 Krrishnaaaa
 		
