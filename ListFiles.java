@@ -67,7 +67,7 @@ public class ListFiles {
 		}
 
 		System.out.println("\nDuplicate(s) of (" + dups.size() + ") file(s) found.");
-		String fileName = "/home/krishna/toDelete"
+		String fileName = "<directory-to-store-duplicate-file-list>/toDelete"
 							 + args[0].replaceAll(File.separator, "_").replaceAll(" ", "_");
 		System.out.println("\nList of duplicate files is stored in " + fileName);
 		File logFile = new File(fileName);
