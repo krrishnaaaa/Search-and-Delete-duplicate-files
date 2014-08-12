@@ -2,8 +2,8 @@ Search-and-Delete-duplicate-files
 =================================
 
 Prerequisites:
-	1. JDK must be installed, and
-	2. Path environments must be set.
+		1. JDK must be installed, and
+		2. Path environments must be set.
 
 How to use this?
 	Follow the steps to use it:
