@@ -1,6 +1,29 @@
 Search-and-Delete-duplicate-files
 =================================
 
+Prerequisites:
+1. JDK must be installed, and
+2. Path environments must be set.
+
+How to use this?
+Follow the steps to use it:
+	Step 1: Clone the repo
+	Step 2: Open `ListFiles.java`
+	Step 3: Replace '<directory-to-store-duplicate-file-list>' with the directory where you want the list of duplicate files to be.
+	Step 4: Open `Terminal` or `Command Prompt`
+	Step 5: Navigate to the cloned repo
+	Step 6: Compile code `javac *.java`
+	Step 7: Run `java ListFiles <root-directory-to-search-duplicate-entries>`
+	Step 8: After processing is completed a file will be generated with list of duplicate files. Open the file and REMOVE THE ENTRIES WHICH YOU WANT TO KEEP.
+	Step 9: Run 'java Deletion <file-location>`
+	
+Now it will delete all those files listed in `toDelete` file.
+
+	NOTE:
+		1. File once deleted cannot be recovered. They will be deleted permanently. So, be careful while using `Deletion`.
+		2. Whenever you want to escape press <ctrl>+c [^c] to exit.
+
+
 Java source code to search a directory, recursively, for duplicate files. Well, this code is not commented, but feel free to query.
 
 Feel free to reorganize code, and distribute your own version. I would be happy if you could state your name and application, in which this code is used.
