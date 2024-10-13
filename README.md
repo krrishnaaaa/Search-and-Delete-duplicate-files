@@ -16,7 +16,7 @@ How to use this?
 		Step 6: After processing is completed a file will be generated with list of 
 			duplicate files. Open the file and REMOVE THE ENTRIES WHICH YOU WANT TO KEEP.
 		Step 7: Run 'java Deletion <file-location>`
-	
+
 Now it will delete all those files listed in `toDelete` file.
 
 	NOTE:
@@ -24,10 +24,11 @@ Now it will delete all those files listed in `toDelete` file.
 			So, be careful while using `Deletion`.
 		2. Whenever you want to escape press <ctrl>+c [^c] to exit.
 
+Java source code to search a directory, recursively, for duplicate files. Well, this code is not commented, but feel
+free to query.
 
-Java source code to search a directory, recursively, for duplicate files. Well, this code is not commented, but feel free to query.
-
-Feel free to reorganize code, and distribute your own version. I would be happy if you could state your name and application, in which this code is used.
+Feel free to reorganize code, and distribute your own version. I would be happy if you could state your name and
+application, in which this code is used.
 
 Send email with following details:
 
