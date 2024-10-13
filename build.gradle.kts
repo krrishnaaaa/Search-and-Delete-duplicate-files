@@ -39,3 +39,15 @@ tasks {
     archiveVersion.set("1.0-SNAPSHOT")
   }
 }
+
+tasks.named("startShadowScripts") {
+  dependsOn(tasks.named("jar"))
+}
+
+tasks.named("startScripts") {
+  dependsOn(tasks.named("shadowJar"))
+}
+
+tasks.named("distTar") {
+  dependsOn(tasks.named("shadowJar"))
+}
