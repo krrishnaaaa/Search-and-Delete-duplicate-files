@@ -4,8 +4,8 @@ plugins {
   id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "com.example"
-version = "1.0-SNAPSHOT"
+group = "com.pcsalt"
+version = "1.0.1-SNAPSHOT"
 
 repositories {
   mavenCentral()
