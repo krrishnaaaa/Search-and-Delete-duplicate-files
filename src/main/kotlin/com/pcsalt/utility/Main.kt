@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
   }
 
   when {
-    args[0] == "--find" && args.size >= 3 -> {
+    args[0] == "--find" && args.size >= 2 -> {
       val directories = args.drop(1)
       println("Find command detected. Searching in directories: $directories")
       ListFiles().find(directories)
