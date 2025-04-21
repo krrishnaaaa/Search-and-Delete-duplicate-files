@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.pcsalt"
-version = "1.0.1-SNAPSHOT"
+version = "1.0.2-SNAPSHOT"
 
 repositories {
   mavenCentral()
@@ -36,7 +36,7 @@ tasks {
   shadowJar {
     archiveBaseName.set("search-and-delete-duplicates")
     archiveClassifier.set("")
-    archiveVersion.set("1.0-SNAPSHOT")
+    archiveVersion.set(project.version.toString())
   }
 }
 
